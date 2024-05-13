@@ -10,6 +10,7 @@ import Restaurante.Ejercicio4.VistaRestaurante;
 import javax.swing.*;
 
 public class ControladorRestaurante {
+    
     private ModeloRestaurante modelo;
     private VistaRestaurante vista;
 

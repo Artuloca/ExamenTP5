@@ -29,8 +29,7 @@ public class ReservaYPedido extends JFrame {
             String pedido = JOptionPane.showInputDialog("Introduce tu pedido");
             mesa.ocupar();
             String respuestaCocina = enviarPedidoACocina(pedido);
-            JOptionPane.showMessageDialog(null, respuestaCocina, "Comida lista", JOptionPane.INFORMATION_MESSAGE, null, new Object[]{}, null);
-            JButton comer = new JButton("Comer");
+            JOptionPane.showMessageDialog(null, respuestaCocina, "Comida lista", JOptionPane.INFORMATION_MESSAGE);            JButton comer = new JButton("Comer");
             comer.addActionListener(ev -> {
                 mesa.setEstado(EstadoMesa.LIBRE);
                 JOptionPane.showMessageDialog(null, "Has terminado de comer. La mesa está libre.");
