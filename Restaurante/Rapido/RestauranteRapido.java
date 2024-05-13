@@ -1,8 +1,10 @@
 package Restaurante.Rapido;
 
-class RestauranteTematico implements Restaurante {
+import Restaurante.Restaurante;
+
+class RestauranteRapido implements Restaurante {
     public void describir() {
-        System.out.println("Restaurante temático");
+        System.out.println("Restaurante de servicio rápido");
     }
 }
 

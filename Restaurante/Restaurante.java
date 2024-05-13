@@ -1,5 +1,5 @@
 package Restaurante;
 
-interface Restaurante {
+public interface Restaurante {
     void describir();
 }
