@@ -1,6 +1,6 @@
 package Restaurante.Ejercicio2.Composite;
 
-abstract class ComponenteRestaurante {
+public abstract class ComponenteRestaurante {
     public void agregar(ComponenteRestaurante componente) {
         throw new UnsupportedOperationException();
     }

@@ -6,4 +6,9 @@ class AdaptadorDeSistemaExterno implements SistemaExterno {
     public AdaptadorDeSistemaExterno(SistemaExternoConcreto sistemaExternoConcreto) {
         this.sistemaExternoConcreto = sistemaExternoConcreto;
     }
+
+    @Override
+    public void operacionExterna() {
+        sistemaExternoConcreto.operacionExternaConcreta();
+    }
 }
