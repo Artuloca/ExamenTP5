@@ -1,4 +1,4 @@
-package Restaurante;
+package Restaurante.Ejercicio1;
 
 
 class GestorDeRestaurantes {
