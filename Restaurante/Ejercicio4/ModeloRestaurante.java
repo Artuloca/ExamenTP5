@@ -1,4 +1,4 @@
-package Restaurante.MVC;
+package Restaurante.Ejercicio4;
 
 import Restaurante.Ejercicio2.Composite.ComponenteRestaurante;
 
